@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import streamlit as st
 
-st.title('Penguin Classifier')
+st.title('Penguin Classifier: A Machine Learning App')
 st.write('This app uses 6 inputs to predict the species of penguin using a model built on the Palmer Penguins dataset. Use the form below to get started!')
 
 penguin_file = st.file_uploader('Upload your own penguin data')
